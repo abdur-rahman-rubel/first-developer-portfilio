@@ -101,6 +101,7 @@ main{
 /* about info styles */
 .about-info-container{
     display: flex;
+    justify-content: space-around;
 }
 
 .about .info-title{
@@ -111,4 +112,20 @@ main{
     color:#474747
     font-size: 20px;
     font-weight: 700;
+}
+/* what i do section */
+.what-i-do{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    font-size: 16px;
+    color: #757575;
 }
